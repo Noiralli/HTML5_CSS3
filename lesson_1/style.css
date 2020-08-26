@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* --------- section product */
+
+.product {
+}
+.product_title {
+}
+.product_list {
+}
+.product_item {
+}
+.product_img {
+}
+
+/* --------- section about */
+
+.about_title {
+}
+.about_img {
+}
+
+/* --------- section about_product */
+
+.about_product {
+}
+.about_product__title {
+}
+.about_product__list {
+}
+.about_product__item {
+}
+
+/* --------- section Screenshots */
+
+.screenshots {
+}
+.screenshots_title {
+}
+.screenshots_images {
+}
+.screenshots_image {
+}
+.screenshots_description {
+}
+
+/* --------- section reviews */
+
+.reviews {
+}
+.reviews_title {
+}
+.reviews_reveiw {
+}
+.review_img {
+}
+.review_text {
+}
+.review_autor {
+}
+
+/* --------- section price_menu */
+
+.price_menu {
+}
+.price_menu__title {
+}
+.price_menu__card {
+}
+.card_title {
+}
+.card_price {
+}
+.card_description {
+}
+.price_menu__card__Standart {
+}
+.price_menu__card__Premium {
+}
+.price_menu__card__Lux {
+}
+
+/* --------- section Contacts */
+
+.contacts {
+}
+.contacts_title {
+}
+.contacts_forms {
+}
+.forms_name {
+}
+.forms_email {
+}
+.forms_textarea {
+}
+.forms__button_send {
+}
+.contacts_public {
+}
+.public_list {
+}
+.public_skype {
+}
+.public_icq {
+}
+.public_mail {
+}
+.public_tel {
+}
+.public__social_media {
+}
+
+/* --------- section footer */
+
+.footer {
+}
