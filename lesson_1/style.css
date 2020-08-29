@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  font-family: "ArialMT";
+}
+
 .container {
   max-width: 1280px;
   margin: 0 auto;
@@ -16,7 +20,7 @@
 .product_container {
   display: flex;
   justify-content: space-between;
-  padding: 50px;
+  padding: 50px 0 50px 0;
 }
 .product_container_left {
   display: flex;
@@ -32,14 +36,27 @@
 }
 .product_list {
   max-width: 458px;
-  height: auto;
-}
-.product_item {
+
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
   color: #ffffff;
   font-size: 20px;
   font-weight: 400;
   line-height: 36px;
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.product_item::before {
+  content: "";
+  background-image: url(img/check_icon.png);
+  display: inline-block;
+  width: 25px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  margin-right: 10px;
 }
 .product_img {
 }
@@ -49,7 +66,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 50px;
+  padding: 50px 0 50px 0;
 }
 .about_container {
   display: flex;
@@ -176,4 +193,13 @@
 /* --------- section footer */
 
 .footer {
+}
+
+@font-face {
+  /* название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) */
+  font-family: "ArialMT";
+  /* адрес шрифта и тип */
+  src: url(fonts/ArialMT.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
