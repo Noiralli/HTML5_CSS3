@@ -99,13 +99,38 @@ body {
 /* --------- section about_product */
 
 .about_product {
+  /* так как видео добавляем убираем фон */
   background: #f5f5f5;
+  /* position: relative; */
+}
+.about_product_video {
+  position: relative;
+  padding-bottom: 56.25%;
+  max-width: 1280px;
+  margin: 0 auto;
+  z-index: 1;
+}
+.about_product_video__media {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .about_product_container {
   padding: 50px 0 50px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  max-width: 1280px;
+  margin: 0 auto; */
 }
 .about_product__title {
   margin-bottom: 30px;
