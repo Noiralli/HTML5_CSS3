@@ -207,8 +207,18 @@ body {
   background-color: #ebebeb;
   padding: 16px;
   border-radius: 6px;
+  position: relative;
 }
-.review_container p {
+.review_container::before {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border: 15px solid transparent;
+  border-right: 10px solid #ebebeb;
+  top: 25px;
+  left: -25px;
 }
 .reviews_containers {
   display: flex;
